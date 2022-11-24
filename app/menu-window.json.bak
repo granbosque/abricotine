@@ -69,11 +69,6 @@
                 "permanent": true
             },
             {
-                "labelKey": "menu-recent",
-                "id": "recentDocs",
-                "submenu": []
-            },
-            {
                 "type": "separator"
             },
             {

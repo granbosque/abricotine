@@ -364,11 +364,7 @@ var commands = {
     homepage: function (win, abrDoc, cm) {
         var homepageURL = constants.homepageURL;
         shell.openExternal(homepageURL);
-    },
-    
-    clearRecentDocs: function(win, abrDoc, cm) {
-        abrDoc.clearRecentDocs();
-    },    
+    }
 };
 
 module.exports = commands;
