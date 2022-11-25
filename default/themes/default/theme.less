@@ -89,7 +89,7 @@
 
 // Quote
 .editor-quote() {
-    color: #75787b;
+    color: rgb(39, 50, 196);
 }
 
 // List
@@ -121,7 +121,10 @@
 }
 
 // Text formating
-.editor-em() {};
+.editor-em() {
+    color: rgb(202, 147, 9);
+};
+
 .editor-strong() {};
 .editor-strikethrough() {};
 
@@ -177,3 +180,13 @@
 @cm-variable-3-color: #085;
 @cm-negative-color: #d44;
 @cm-positive-color: #292;
+
+
+.CodeMirror-widget img {
+    display: block;
+    max-height: 30em !important;
+    width: 100%;
+    object-fit: contain;
+}
+  
+  
