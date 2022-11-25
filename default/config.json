@@ -33,7 +33,7 @@
     "startup-commands": {
         "showBlocks": false,
         "showHiddenCharacters": false,
-        "showTocPane": false,
+        "showTocPane": true,
         "showLastLineIndicator": true,
         "autoCloseBrackets": true,
         "autosave" : false
